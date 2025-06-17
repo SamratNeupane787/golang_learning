@@ -7,9 +7,13 @@ func main(){
 
 	a := 3
 
+	f :=float64(a)
+
 	fmt.Printf("a - %d\n", a)
 
 	arr := [3] int {1,2,3}
 
 	fmt.Printf("arr = %v\n", arr)
+
+	fmt.Println(f)
 }
